@@ -24,6 +24,29 @@ body {
   transform-origin: center center;
 }
 
+/* Responsive adjustments for mobile screens */
+@media (max-width: 576px) {
+  .green-logo {
+    width: 40px;
+    top: 5px;
+    left: 10px;
+  }
+
+  .gb-logo {
+    width: 38px;
+    top: 5px;
+    right: 10px;
+    transform: rotate(6deg);
+  }
+
+  .cake_bakery_top_heading {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 60px; /* ensures heading doesn't overlap with logos */
+  }
+}
+
+
  .logo-img {
   max-width: 50%;
   height: auto;
