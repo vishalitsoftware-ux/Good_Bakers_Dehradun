@@ -1,0 +1,482 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff8f0;
+      color: hsla(36, 53%, 56%, 0.941)585858585858585858585858; /* light mauve/pink tone */
+}
+
+.green-logo {
+      width: 50px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+}
+
+.gb-logo {
+     width: 46px;
+    height: auto;
+    position: absolute;
+    top: -6px;
+    right: 15px;
+ transform: rotate(9deg); /* change the angle (deg) */
+  transform-origin: center center;
+}
+
+ .logo-img {
+  max-width: 50%;
+  height: auto;
+
+}
+
+
+
+.logo-container{
+  background-image: url('Good_bakers_logo_with_dark_background.png');
+}
+
+
+header {
+     background: rgb(234, 234, 238);
+      color: rgb(219, 136, 95); /* light mauve/pink tone */
+    padding: 0px;
+    text-align: center;
+    border: #333;
+}
+
+.cake_bakery_top_heading {
+ font-family: 'Great Vibes', cursive;
+          font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    color:  #da5e20;
+    font-weight:bold;
+
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav ul li {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-info {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.hero {
+   font-family: 'Allura', cursive;
+  font-size: 100px;
+  color: #7b10a5;
+  text-align: center;
+  background-color: #d8a841;
+  font-weight: bold;
+}
+
+.hero-heading {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: #fff;
+  color: #7b10a5;
+  border: 1px solid #7b10a5;
+  border-radius: 5px;
+  font-weight: bold;
+   font-size: 30px;
+  font-family: roboto;
+}
+
+.strawberry-cake {
+ width: 200px;
+    max-width: 600px;
+    height: 150px;
+    display: flex;
+    margin: 0px 290px -100px auto;
+    justify-content: start;
+}
+
+.about-section {
+  background-color: #fff8f0;
+  padding: 60px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.about-section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #BB0009;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+ 
+
+.offer-section {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1000px;
+  margin: 60px auto;
+  background-color: #f5f5f5;
+  gap: 20px;
+}
+
+.offer-card {
+  background-color: #a20000; /* deep red */
+  flex: 1;
+  padding: 50px 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.offer-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.offer-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #f9f9f9;
+}
+
+.order-button {
+  display: inline-block;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: 500;
+  align-self: flex-start;
+  transition: all 0.3s ease;
+}
+
+ .catalog-section {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .catalog-heading {
+      font-family: 'Dancing Script', cursive;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .catalog-menu {
+      margin-bottom: 40px;
+        font-size: 12px;
+      display: flex;
+      gap: 20px;
+      font-size: 50px;
+
+    }
+
+    .catalog-menu a {
+      text-decoration: none;
+      color: #555;
+      margin: 5px 20px 10px 10px;
+      
+      font-weight: 400;
+      font-size: 15px;
+      cursor: pointer;
+      transition: color 0.3s;
+      
+    }
+
+    .catalog-menu a:hover {
+      color: #b91319;
+    }
+
+    .catalog-menu a.active {
+      color: #b91319;
+      font-weight: 600;
+      border-bottom: 2px solid #b91319;
+      padding-bottom: 4px;
+    }
+
+    .catalog-content {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    /* Red side panel */
+    .side-panel {
+      background-color: #b91319;
+      color: #fff;
+      width: 260px;
+      padding: 40px 30px;
+      text-align: left;
+      border-radius: 8px;
+    }
+
+    .side-heading {
+      font-family: 'Dancing Script', cursive;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .side-text {
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+
+    .filling-list {
+      list-style: none;
+      margin-bottom: 30px;
+    }
+
+    .filling-list li {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .order-btn {
+      background: transparent;
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 10px 25px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: all 0.3s ease;
+    }
+
+    .order-btn:hover {
+      background: #fff;
+      color: #b91319;
+    }
+
+    /* Image grids */
+    .cake-grid {
+      display: none;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      flex: 1;
+      width: 100%;
+      opacity: 0;
+      transition: opacity 0.8s ease-in-out;
+    }
+
+    .cake-grid.active {
+      display: grid;
+      opacity: 1;
+      animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(15px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .cake-grid img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .cake-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Footer pagination */
+    .catalog-footer {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: 20px;
+      font-size: 16px;
+      color: #555;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .catalog-content {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .side-panel {
+        width: 100%;
+        text-align: center;
+      }
+
+      .cake-grid {
+        width: 100%;
+      }
+    }
+
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 60px auto;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex: 1 1 50%;
+}
+
+  .contact-card {
+     
+    background-color: #c62828;
+    color: #fff;
+    padding: 30px 10px;
+    margin: -550px 0px 0px 700px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: center;
+    }
+
+    .contact-card h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+
+    .contact-card p {
+      margin: 10px 0;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .contact-card p strong {
+      display: block;
+      margin-bottom: 4px;
+      font-weight: 600;
+    }
+
+/* 📱 Mobile-first adjustments */
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-side img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  .contact-card {
+    margin: 0;
+  }
+}
+
+
+.order-button:hover {
+  background-color: #fff;
+  color: #a20000;
+}
+
+.offer-image {
+  flex: 1;
+}
+
+.offer-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+section {
+  padding: 30px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.catalog .categories button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  background: #BB0009;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.catalog ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.about p,
+.offer p,
+.contacts p,
+.reviews blockquote {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.application form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 10px;
+}
+
+.application input,
+.application button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.application button {
+  background: #BB0009;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+footer {
+  background: #BB0009;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
