@@ -28,8 +28,8 @@ body {
 @media (max-width: 576px) {
   .green-logo {
     width: 40px;
-    top: 5px;
-    left: 10px;
+    top: 0px;
+    left: 8px;
   }
 
   .gb-logo {
@@ -48,7 +48,7 @@ body {
 
 .home_made_bakery_pic {
  width: 310px;
-    height: 62px;
+    height: 50px;
     position: absolute;
     top: -15px;
     left: 50%;
