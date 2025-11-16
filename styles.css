@@ -14,6 +14,50 @@ body {
     left: 15px;
 }
 
+.hero-header {
+    width: 100%;
+    height: 180px;                      /* Adjust height as needed */
+    background-image: url("background.jpg");
+    background-size: cover;              /* Stretch the background */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    width: 60px;                         /* Adjust logo size */
+    height: auto;
+}
+
+.right-logo{
+   transform: rotate(9deg); 
+}
+
+.brand-title {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #3d3d3d;
+    font-weight: bold;
+}
+
+.brand-title span {
+    font-size: 14px;
+    font-weight: normal;
+    color: #6e6e6e;
+}
+
+
+
 .gb-logo {
      width: 46px;
     height: auto;
@@ -27,30 +71,32 @@ body {
 /* Responsive adjustments for mobile screens */
 @media (max-width: 576px) {
   .green-logo {
-    width: 40px;
-    top: 0px;
-    left: 8px;
+       .green-logo {
+        width: 60px;
+        top: 11px;
+        right: 0px;
+        transform: rotate(0deg);
+        height: 73px;
+        left: -10px;
   }
+
 
   .gb-logo {
-    width: 38px;
-    top: -10px;
-    right: 10px;
-    transform: rotate(9deg);
+  width: 60px;
+        top: 11px;
+        right: -3px;
+        transform: rotate(9.5deg);
+        height: 73px;
   }
 
-  .cake_bakery_top_heading {
-    font-size: 1.2rem;
-    text-align: center;
-    margin-top: 7px; /* ensures heading doesn't overlap with logos */
-  }
+ 
 }
 
 .home_made_bakery_pic {
- width: 310px;
-    height: 50px;
+    width: 411px;
+    height: 90px;
     position: absolute;
-    top: -15px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
 
@@ -67,7 +113,8 @@ body {
 
 .logo-container{
   background-image: url('Good_bakers_logo_with_dark_background.png');
-  height: 150px;;
+  height: 150px;
+  margin-top: 40px;
 }
 
 
@@ -512,4 +559,4 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
-}
+}}
