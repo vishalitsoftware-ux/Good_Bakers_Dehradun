@@ -34,7 +34,7 @@ body {
 
   .gb-logo {
     width: 38px;
-    top: 5px;
+    top: -10px;
     right: 10px;
     transform: rotate(9deg);
   }
@@ -44,6 +44,16 @@ body {
     text-align: center;
     margin-top: 7px; /* ensures heading doesn't overlap with logos */
   }
+}
+
+.home_made_bakery_pic {
+ width: 310px;
+    height: 62px;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
 
 
